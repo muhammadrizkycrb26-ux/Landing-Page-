@@ -1,1 +1,1 @@
-Masih dalam tahap pengembangan
+masih dalam tahap pengembangan
