@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Modern Interaktif</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="logo">Brand<span>Kita</span></div>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-item active">Beranda</a></li>
+                <li><a href="#fitur" class="nav-item">Fitur</a></li>
+                <li><a href="#stats" class="nav-item">Keunggulan</a></li>
+                <li><a href="#kontak" class="nav-item">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="nav-actions">
+            <a href="#kontak" class="btn btn-nav">Hubungi Kami</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <span class="badge">🚀 Solusi Digital Terdepan</span>
+            <h1>Ciptakan Pengalaman Digital Luar Biasa</h1>
+            <p>Kami membantu Anda membangun dan mengembangkan kehadiran digital dengan desain elegan, cepat, dan berfokus pada hasil.</p>
+            <div class="hero-buttons">
+                <a href="#kontak" class="btn btn-primary">Mulai Sekarang</a>
+                <a href="#fitur" class="btn btn-secondary">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fitur Section -->
+    <section id="fitur" class="features">
+        <div class="section-title fade-in">
+            <h2>Layanan & Fitur Unggulan</h2>
+            <p>Didesain khusus untuk memenuhi kebutuhan skala bisnis Anda.</p>
+        </div>
+        <div class="feature-container">
+            <div class="feature-card fade-in">
+                <div class="icon">✨</div>
+                <h3>Desain Ultra Modern</h3>
+                <p>Tampilan yang estetik, bersih, dan disesuaikan dengan tren UI/UX terkini untuk memikat pengunjung.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="icon">⚡</div>
+                <h3>Super Cepat & Responsive</h3>
+                <p>Website memuat secara instan dan dapat diakses dengan sempurna di perangkat HP, tablet, maupun desktop.</p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="icon">🛡️</div>
+                <h3>Keamanan Terjamin</h3>
+                <p>Dilengkapi standar keamanan terkini untuk menjaga data dan privasi bisnis Anda tetap aman.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stat Counter Section -->
+    <section id="stats" class="stats">
+        <div class="stat-item fade-in">
+            <h2 class="counter" data-target="99">0</h2>
+            <span>%</span>
+            <p>Kepuasan Klien</p>
+        </div>
+        <div class="stat-item fade-in">
+            <h2 class="counter" data-target="150">0</h2>
+            <span>+</span>
+            <p>Proyek Selesai</p>
+        </div>
+        <div class="stat-item fade-in">
+            <h2 class="counter" data-target="24">0</h2>
+            <span>/7</span>
+            <p>Dukungan Layanan</p>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-content fade-in">
+            <h2>Siap Membawa Bisnis Anda ke Tingkat Berikutnya?</h2>
+            <p>Bergabunglah dengan ratusan klien yang telah sukses bersama kami.</p>
+            <a href="#kontak" class="btn btn-primary btn-large">Mulai Konsultasi Gratis</a>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="contact">
+        <div class="section-title fade-in">
+            <h2>Hubungi Kami</h2>
+            <p>Kirimkan pesan Anda dan tim kami akan segera membalasnya.</p>
+        </div>
+        <form class="contact-form fade-in" id="contactForm">
+            <input type="text" id="name" placeholder="Nama Lengkap" required>
+            <input type="email" id="email" placeholder="Alamat Email" required>
+            <textarea id="message" rows="5" placeholder="Pesan Anda" required></textarea>
+            <button type="submit" class="btn btn-primary" id="submitBtn">Kirim Pesan</button>
+            <div id="formFeedback" class="form-feedback"></div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 BrandKita. Dibuat dengan ❤️ untuk performa terbaik.</p>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="script.js"></script>
+</body>
+</html>
